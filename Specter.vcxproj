@@ -123,12 +123,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\Downloads\Specter_ImGui_Base\imgui_config.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Specter.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\Downloads\Specter_ImGui_Base\main.cpp" />
     <ClCompile Include="Specter.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -137,6 +139,9 @@
   <ItemGroup>
     <Image Include="small.ico" />
     <Image Include="Specter.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\Downloads\Specter_ImGui_Base\README.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
